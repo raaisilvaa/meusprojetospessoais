@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 260px;
+    width: 390px;
+}
+
+body > header {
+    background-color: rgb(77, 108, 247);
+    padding: 16px 0;
+    color:rgb(255, 255, 255)
+}
+
+time {
+    color: rgba(3, 3, 11, 0.947);
+    font-size: 17px;
+    font-weight: normal;
+}
+ 
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+header li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: -5px;
+}
+
+#sports {
+    background-color: rgba(53, 238, 251, 0.737);
+}
+
+#sports .articles article a {
+    background-color: rgb(10, 83, 88);;
+}
+
+#economy {
+    background-color: rgba(251, 139, 53, 0.737);
+}
+
+#economy .articles article a {
+    background-color: rgb(153, 109, 20);;
+}
+
+#entertainment {
+    background-color: rgba(251, 53, 53, 0.737);
+}
+
+#entertainment .articles article a {
+    background-color: rgba(173, 39, 39, 0.938);;
+}
+
+#technology {
+    background-color: rgba(241, 251, 53, 0.737);
+}
+
+#technology .articles article a {
+    background-color: rgb(135, 153, 20);;
+}
